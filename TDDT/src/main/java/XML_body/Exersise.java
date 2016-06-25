@@ -6,15 +6,32 @@ package XML_body;
 import java.util.ArrayList;
 
 public class Exersise {
-    public String exersiseName;
-    public ArrayList<String> testCode;
-    public ArrayList<String>  writeableCode;
-    public ArrayList<String>  exersiseText;
+     String exersiseName;
+     ArrayList<String> testCode;
+     ArrayList<String>  writeableCode;
+     ArrayList<String>  exersiseText;
     //May add Constructors for the extensions
     public Exersise()
     {
         //Cant construct this body in Code
     }
+    public void setTestCode(ArrayList<String> t)
+    {
+        writeableCode = t;
+    }
+    public void setWriteableCode(ArrayList<String> t)
+    {
+        testCode = t;
+    }
+    public void setExersiseText(ArrayList<String> t)
+    {
+        exersiseText = t;
+    }
+    public void setTestCode(String t)
+    {
+        exersiseName = t;
+    }
+
 
 
 }
