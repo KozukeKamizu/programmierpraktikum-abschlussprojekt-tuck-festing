@@ -20,7 +20,7 @@ public class XML_Tests {
     }
     @Test
     public  void test() {
- 
+
         // System.out.println(e.exersises.get(0).exersiseName);
         XMLController.saveAllExercises(allExersises);
         Exersises x = XMLController.loadAllExercises();
