@@ -33,5 +33,22 @@ public class Exersise {
     }
 
 
+    public String getExersiseName() {
+        return exersiseName;
+    }
 
+    public void setExersiseName(String exersiseName) {
+        this.exersiseName = exersiseName;
+    }
+
+    public ArrayList<String> getTestCode() {
+        return testCode;
+    }
+    public ArrayList<String> getWriteableCode() {
+        return writeableCode;
+    }
+
+    public ArrayList<String> getExersiseText() {
+        return exersiseText;
+    }
 }

@@ -16,4 +16,11 @@ public class Exersises {
         exersises.add(new Exersise());
     }
 
+    public ArrayList<Exersise> getExersises() {
+        return exersises;
+    }
+
+    public void setExersises(ArrayList<Exersise> exersises) {
+        this.exersises = exersises;
+    }
 }
